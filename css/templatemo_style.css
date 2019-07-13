@@ -112,7 +112,7 @@ img {
     -webkit-transition: 1s all ease;
     -moz-transition: 1s all ease;
     transition: 1s all ease;
-    color: #f6a100;
+    color: #707ef5;
     text-decoration: none;
 	font-size: 14px;
 }
@@ -121,22 +121,34 @@ img {
     color: #ffffff;
 	background: #f6a100;
 }
-
-#top-menu li.active a {
-    color: #ffffff;
-	background: #f6a100;
-	/*line-height: 60px;*/
-	font-size: 14px;
+#top-menu a:focus {
+    background: transparent;
 }
 
+#top-menu li.active a {
+    color: #f6a100;
+    /*background: #f6a100;
+    line-height: 60px;*/
+	font-size: 14px;
+}
+#top-menu li.active a:before{	border-color: #f6a100 transparent;
+    content: "";
+    border-style: solid;
+    border-width: 0px 8px 10px 8px;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    bottom: -19px;
+    right: 15px;
+
+}
 .btn-primary {
-	background-color: #f6a100;
-	border-color: #bd8f1d;
+	background-color: #020a4f;
+	border-color: #707ef5;
 }
 
 .btn-primary:hover {
-	background-color: #e0ab26;
-	border-color: #bd8f1d;
+	background-color: #707ef5;
 }
 
 .templatemo_caption p { color: #ffffff; background: rgba(0, 0, 0, 0.32); padding: 10px; font-weight: 200;font-size: 1.6em; font-size: 2.5vw;}
@@ -601,9 +613,9 @@ and (max-width : 480px) {
 	}*/
 	#top-menu li a	{ padding: 0px;}
 	#top-menu li.active a {
-    color: #ffffff;
-	background: #f6a100;
+    color: #f6a100;
 	}
+
 	.templatemo_col12	{
 		width: 100%;
 		margin-bottom: 5px;
@@ -682,11 +694,11 @@ and (max-width : 480px) {
 
 	}
 	#top-menu li.active a {
-    color: #ffffff;
-	background: #f6a100;
+    color: #f6a100;
+
 	line-height: 40px;
 	}
-	
+
   .teamInfo ul li {
     width: 50%;
   }
