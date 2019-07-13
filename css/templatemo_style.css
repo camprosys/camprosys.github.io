@@ -139,7 +139,7 @@ img {
 	border-color: #bd8f1d;
 }
 
-.templatemo_caption p { color: #ffffff; background: rgba(0, 0, 0, 0.32); padding: 10px; font-weight: 200;font-size: 1.6em; font-size: 1.5vw;}
+.templatemo_caption p { color: #ffffff; background: rgba(0, 0, 0, 0.32); padding: 10px; font-weight: 200;font-size: 1.6em; font-size: 2.5vw;}
 
 .templatemo_caption	{
 	margin-left: 20%;
@@ -623,7 +623,9 @@ and (max-width : 480px) {
 	}
 	.templatemo_caption h1{		
 		font-size:1em;
+        display: none;
 	}
+
 }
 @media(min-width:500px) and (max-width: 650px){
 	.hover-box {
