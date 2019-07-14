@@ -131,17 +131,7 @@ img {
     line-height: 60px;*/
 	font-size: 14px;
 }
-#top-menu li.active a:before{	border-color: #f6a100 transparent;
-    content: "";
-    border-style: solid;
-    border-width: 0px 8px 10px 8px;
-    height: 0px;
-    width: 0px;
-    position: absolute;
-    bottom: -19px;
-    right: 15px;
 
-}
 .btn-primary {
 	background-color: #020a4f;
 	border-color: #707ef5;
@@ -554,10 +544,23 @@ img {
 .templatemo_footer span.left.fa-envelope { font-size: 1.2em;}
 
 .templatemo_bottom	{ 
-	padding: 15px 0px; 
-	width: 100%; 
-	background: #333536;
+	padding: 50px 0px;
+	width: 100%;
+	color:#020a4f;
+	background: #f6a100;
+	position: relative;
 	}
+.templatemo_bottom:before{
+	border-color: #f6a100 transparent;
+	content: "";
+	border-style: solid;
+	border-width: 0px 8px 10px 8px;
+	height: 0px;
+	width: 0px;
+	position: absolute;
+	top: -9px;
+	right: 325px;
+}
 .templatemo_bottom .left { float: left;}
 .templatemo_bottom .right { float: right;}
 .templatemo_bottom .right fa { padding: 15px;}
@@ -720,6 +723,10 @@ and (max-width : 480px) {
 
 
   .templatemo_top { position: static; }
+	.templatemo_bottom:before{
+
+		right: 212px;
+	}
 
 }
 .site-title{line-height: 80px;
@@ -809,6 +816,9 @@ and (max-width : 540px)	{
 	.templatemo_clientwrapper .next{ margin-top: 20px;}
 	.templatemo_marginleft50	{ margin-left: 50px;}
 	.templatemo_clientimage	div.fa	{ display: none;}
+	.templatemo_bottom:before{
+		right: 212px;
+	}
 }
 
 /* iPads (portrait and landscape) ----------- */
