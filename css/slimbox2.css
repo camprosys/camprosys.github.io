@@ -15,7 +15,7 @@
 	position: absolute;
 	z-index: 9999;
 	overflow: hidden;
-	background-color: #fff;
+	background-color: #f6a100;
 }
 
 .lbLoading {
@@ -26,7 +26,7 @@
 	position: absolute;
 	left: 0;
 	top: 0;
-	border: 10px solid #fff;
+	border: 10px solid #f6a100;
 	background-repeat: no-repeat;
 }
 
@@ -43,7 +43,7 @@
 }
 
 #lbPrevLink:hover {
-	background: transparent url(../images/prevlabel.gif) no-repeat 0 15%;
+	background: transparent url(../images/prevlabel.png) no-repeat 0 15%;
 }
 
 #lbNextLink {
@@ -51,7 +51,7 @@
 }
 
 #lbNextLink:hover {
-	background: transparent url(../images/nextlabel.gif) no-repeat 100% 15%;
+	background: transparent url(../images/nextlabel.png) no-repeat 100% 15%;
 }
 
 #lbBottom {
@@ -60,7 +60,7 @@
 	color: #666;
 	line-height: 1.4em;
 	text-align: left;
-	border: 10px solid #fff;
+	border: 10px solid #f6a100;
 	border-top-style: none;
 }
 
